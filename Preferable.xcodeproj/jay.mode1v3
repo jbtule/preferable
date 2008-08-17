@@ -272,14 +272,14 @@
 								<string>08FB77AEFE84172EC02AAC07</string>
 								<string>32C88DFF0371C24200C91783</string>
 								<string>089C1665FE841158C02AAC07</string>
+								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
-									<integer>1</integer>
-									<integer>0</integer>
+									<integer>19</integer>
+									<integer>18</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -330,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>69BA5A520E57CFF8001E7BCF</string>
+										<string>69B11C5A0E581779005B3775</string>
 										<key>history</key>
 										<array>
 											<string>69219CB80E492DA9009C3009</string>
@@ -340,7 +340,7 @@
 											<string>69BA55A70E577472001E7BCF</string>
 											<string>69BA560C0E577914001E7BCF</string>
 											<string>69BA56160E577960001E7BCF</string>
-											<string>69BA58390E57A2CE001E7BCF</string>
+											<string>69BA5A520E57CFF8001E7BCF</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -409,9 +409,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>69BA58C90E57B1BE001E7BCF</string>
+				<string>69B11C5B0E581779005B3775</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>69BA58CA0E57B1BE001E7BCF</string>
+				<string>69B11C5C0E581779005B3775</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -545,8 +545,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>69219CA50E492CE1009C3009</string>
-		<string>/Users/jay/Documents/Projects/niceplayer_proj/niceplayer/Libraries/Preferable/Preferable.xcodeproj</string>
+		<string>/Users/jay/Documents/Projects/niceplayer_proj/niceplayer/Libraries/preferable/Preferable.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>225 218 788 504 0 0 1280 778 </string>
