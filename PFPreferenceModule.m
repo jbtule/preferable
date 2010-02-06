@@ -78,7 +78,7 @@
 }
 -(void)setBundle:(NSBundle*)aBundle{
 	[mBundle release];
-	aBundle =[aBundle retain];
+	mBundle =[aBundle retain];
 }
 
 -(NSString*)nibName{

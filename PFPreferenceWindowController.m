@@ -187,14 +187,14 @@ withIdentifier:(NSString*)anIdentifier
      withLabel:(NSString*)aLabel
    withToolTip:(NSString*)aToolTip
 allowingResize:(BOOL)allowResize{
-	NSToolbarItem* tItem = [[NSToolbarItem alloc ]initWithItemIdentifier:anIdentifier];
+	NSToolbarItem* tItem = [[[NSToolbarItem alloc ]initWithItemIdentifier:anIdentifier]autorelease];
 	[tItem  setToolTip:aToolTip];
 	[tItem setLabel:aLabel];
 	[tItem setImage:anImage];
 	[tItem setAction:@selector(showModule:)];
 	[tItem setTarget:self];
 	
-	[self addPane:[PFPreferenceModule moduleWithToolbarItem:tItem andView:aView andResizable:allowResize]];
+	[self addPane:[PFPreferenceModule moduleWithToolbarItem:tItem  andView:aView andResizable:allowResize]];
 }
 -(void)addPane:(PFPreferenceModule*)aModule{
 	NSToolbarItem* tItem = [aModule toolbarItem];

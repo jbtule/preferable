@@ -167,7 +167,7 @@ withIdentifier:(NSString*)anIdentifier
 			[tItem setImage:anImage];
 			
 			
-			[self addPane:[PFPreferenceModule moduleWithToolbarItem:tItem andView:aView andResizable:allowResize]];
+			[self addPane:[PFPreferenceModule moduleWithToolbarItem:[tItem autorelease] andView:aView andResizable:allowResize]];
 		}
 	-(void)addPane:(PFPreferenceModule*)aModule{
 		NSToolbarItem* tItem = [aModule toolbarItem];
